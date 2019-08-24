@@ -7,7 +7,7 @@
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
-server '52.69.51.158', user: 'ec2-user', roles: %w{app db web}
+server '52.196.174.77', user: 'ec2-user', roles: %w{app db web}
 
 set :rails_env, "production"
 set :unicorn_rack_env, "production"
@@ -64,4 +64,3 @@ set :unicorn_rack_env, "production"
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
-
