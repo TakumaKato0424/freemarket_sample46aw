@@ -39,7 +39,7 @@ gem 'mini_magick'
 gem 'fog-aws'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
-gem 'font-awesome-sass'
+gem 'font-awesome-sass', "~> 5.9.0"
 gem 'kaminari'
 gem 'haml-rails'
 gem 'erb2haml'

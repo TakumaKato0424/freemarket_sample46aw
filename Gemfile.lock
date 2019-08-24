@@ -408,7 +408,7 @@ DEPENDENCIES
   factory_bot_rails
   faker
   fog-aws
-  font-awesome-sass
+  font-awesome-sass (~> 5.9.0)
   gretel
   haml-rails
   jbuilder (~> 2.5)
