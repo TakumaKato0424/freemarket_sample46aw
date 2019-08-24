@@ -44,3 +44,4 @@ desc 'upload master.key'
   end
   before :starting, 'deploy:upload'
   after :finishing, 'deploy:cleanup'
+end
