@@ -14,8 +14,8 @@ CarrierWave.configure do |config|
       region: 'ap-northeast-1'
     }
 
-    config.fog_directory  = 'freesample46aw'
-    config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/freesample46aw'
+    config.fog_directory  = 'freemarketsample46aw'
+    config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/freemarketsample46aw'
 
   else
     config.storage :file
