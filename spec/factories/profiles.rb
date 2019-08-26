@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :profile do
-    birthday = "#{Faker::Time.between(119.years.ago, Date.today, :all)}".split(" ")[0]
+    # birthday = "#{Faker::Time.between(119.years.ago, Date.today, :all)}".split(" ")[0]
     nickname          { Faker::Name.name } 
     introduction      { Faker::Lorem.paragraphs }
     birthday          { birthday }
